@@ -49,7 +49,7 @@
     
     SystemSoundID soundFileObject;
  
-    NSURL *path = [[NSBundle mainBundle] URLForResource:@"detection" withExtension:@"aiff"];
+    NSURL *path = [[NSBundle bundleForClass:[self class]] URLForResource:@"detection" withExtension:@"aiff"];
 
     // Create a system sound object representing the sound file
     AudioServicesCreateSystemSoundID (
