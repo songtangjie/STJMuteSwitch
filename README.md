@@ -1,0 +1,2 @@
+# STJMuteSwitch
+Monitoring vibration mode
